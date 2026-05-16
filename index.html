@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mijn FH6 Garage</title>
+    <style>
+        :root {
+            --bg-color: #0b0f19;
+            --card-bg: #1e2640;
+            --accent: #ff007f; /* Horizon roze/neon */
+            --text: #ffffff;
+            --text-muted: #8fa0dd;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text);
+            margin: 0;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 2px solid var(--accent);
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .subtitle {
+            color: var(--text-muted);
+            margin-top: 5px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            border-left: 5px solid var(--accent);
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .brand {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            letter-spacing: 1px;
+        }
+
+        .model {
+            font-size: 1.4rem;
+            font-weight: bold;
+            margin: 5px 0 15px 0;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.9rem;
+            background: rgba(0,0,0,0.2);
+            padding: 8px 12px;
+            border-radius: 6px;
+        }
+
+        .class {
+            font-weight: bold;
+            color: var(--accent);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🏎️ Mijn FH6 Garage</h1>
+        <p class="subtitle">Mijn persoonlijke auto-collectie in Forza Horizon 6</p>
+    </header>
+
+    <div class="grid">
+        
+        <!-- Auto 1 -->
+        <div class="card">
+            <div class="brand">Nissan</div>
+            <div class="model">GT-R Nismo</div>
+            <div class="stats">
+                <span class="class">S2 991</span>
+                <span class="year">2024</span>
+            </div>
+        </div>
+
+        <!-- Auto 2 -->
+        <div class="card">
+            <div class="brand">Toyota</div>
+            <div class="model">GR Supra</div>
+            <div class="stats">
+                <span class="class">A 800</span>
+                <span class="year">2020</span>
+            </div>
+        </div>
+
+        <!-- Auto 3 -->
+        <div class="card">
+            <div class="brand">Ferrari</div>
+            <div class="model">SF90 Stradale</div>
+            <div class="stats">
+                <span class="class">S2 998</span>
+                <span class="year">2021</span>
+            </div>
+        </div>
+
+        <!-- VOEG HIER MEER AUTO'S TOE -->
+
+    </div>
+
+</body>
+</html>
