@@ -60,7 +60,7 @@ h1 {
     object-fit: cover;
     border-radius: 8px;
     margin-bottom: 15px;
-    background-color: #151b30; /* Dit is de achtergrondkleur als een foto nog laadt */
+    background-color: #151b30; /* Donker vlak zolang de foto nog niet is geüpload */
 }
 
 .brand {
