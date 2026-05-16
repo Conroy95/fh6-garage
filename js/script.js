@@ -2,22 +2,21 @@ document.addEventListener('DOMContentLoaded', () => {
     const searchBar = document.getElementById('searchBar');
     const carCards = document.querySelectorAll('.card');
 
-    // Proxy om de afbeelding-blokkades van externe sites te omzeilen
+    // Proxy om hotlink-blokkades van Fandom te omzeilen
     const proxyUrl = "https://images.weserv.nl/?url=";
 
-    // Loop door alle kaarten en laad de externe afbeeldingen via de proxy
+    // Laad alle afbeeldingen live in via de proxy
     carCards.forEach(card => {
         const rawImageUrl = card.getAttribute('data-image');
         const imgTag = card.querySelector('.car-img');
 
         if (rawImageUrl && imgTag) {
-            // We halen 'https://' van de link af voor de proxy-service
             const cleanUrl = rawImageUrl.replace(/^https?:\/\//, '');
             imgTag.src = proxyUrl + cleanUrl;
         }
     });
 
-    // Zoekfunctie
+    // Live zoekfunctie
     searchBar.addEventListener('input', (e) => {
         const searchTerm = e.target.value.toLowerCase().trim();
 
