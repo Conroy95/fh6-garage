@@ -4,90 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mijn FH6 Garage</title>
-    <style>
-        :root {
-            --bg-color: #0b0f19;
-            --card-bg: #1e2640;
-            --accent: #ff007f; /* Horizon roze/neon */
-            --text: #ffffff;
-            --text-muted: #8fa0dd;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text);
-            margin: 0;
-            padding: 20px;
-        }
-
-        header {
-            text-align: center;
-            padding: 20px 0;
-            border-bottom: 2px solid var(--accent);
-            margin-bottom: 30px;
-        }
-
-        h1 {
-            margin: 0;
-            font-size: 2rem;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-        }
-
-        .subtitle {
-            color: var(--text-muted);
-            margin-top: 5px;
-        }
-
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-            gap: 20px;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        .card {
-            background-color: var(--card-bg);
-            border-radius: 12px;
-            padding: 20px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-            border-left: 5px solid var(--accent);
-            transition: transform 0.2s;
-        }
-
-        .card:hover {
-            transform: translateY(-5px);
-        }
-
-        .brand {
-            font-size: 0.85rem;
-            text-transform: uppercase;
-            color: var(--text-muted);
-            letter-spacing: 1px;
-        }
-
-        .model {
-            font-size: 1.4rem;
-            font-weight: bold;
-            margin: 5px 0 15px 0;
-        }
-
-        .stats {
-            display: flex;
-            justify-content: space-between;
-            font-size: 0.9rem;
-            background: rgba(0,0,0,0.2);
-            padding: 8px 12px;
-            border-radius: 6px;
-        }
-
-        .class {
-            font-weight: bold;
-            color: var(--accent);
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -98,8 +15,8 @@
 
     <div class="grid">
         
-        <!-- Auto 1 -->
         <div class="card">
+            <img class="car-img" src="https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?w=500&auto=format&fit=crop&q=60" alt="Nissan GT-R">
             <div class="brand">Nissan</div>
             <div class="model">GT-R Nismo</div>
             <div class="stats">
@@ -108,8 +25,8 @@
             </div>
         </div>
 
-        <!-- Auto 2 -->
         <div class="card">
+            <img class="car-img" src="https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=500&auto=format&fit=crop&q=60" alt="Toyota Supra">
             <div class="brand">Toyota</div>
             <div class="model">GR Supra</div>
             <div class="stats">
@@ -118,8 +35,8 @@
             </div>
         </div>
 
-        <!-- Auto 3 -->
         <div class="card">
+            <img class="car-img" src="https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=500&auto=format&fit=crop&q=60" alt="Ferrari SF90">
             <div class="brand">Ferrari</div>
             <div class="model">SF90 Stradale</div>
             <div class="stats">
@@ -128,9 +45,7 @@
             </div>
         </div>
 
-        <!-- VOEG HIER MEER AUTO'S TOE -->
-
-    </div>
+        </div>
 
 </body>
 </html>
