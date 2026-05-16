@@ -1,0 +1,23 @@
+[
+    {
+        "brand": "Renault",
+        "model": "Megane R.S.",
+        "class": "Hot Hatch",
+        "year": 2018,
+        "image": "https://static.wikia.nocookie.net/forzamotorsport/images/1/15/FH4_Renault_Megane_RS.png"
+    },
+    {
+        "brand": "Mazda",
+        "model": "MX-5 Miata RF",
+        "class": "Sports Cars",
+        "year": 2018,
+        "image": "https://static.wikia.nocookie.net/forzamotorsport/images/0/00/FH5_Mazda_MX5_RF.png"
+    },
+    {
+        "brand": "Dodge",
+        "model": "Charger R/T",
+        "class": "Classic Muscle",
+        "year": 1969,
+        "image": "https://static.wikia.nocookie.net/forzamotorsport/images/7/7f/FH5_Dodge_Charger.png"
+    }
+]
