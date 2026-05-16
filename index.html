@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mijn FH6 Garage Dashboard</title>
+    <!-- Verwijst naar de css map -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🏎️ Mijn FH6 Garage</h1>
+        <p class="subtitle">Mijn persoonlijke auto-collectie in Forza Horizon 6</p>
+        
+        <!-- Live Zoekbalk via JavaScript -->
+        <div class="search-container">
+            <input type="text" id="searchBar" placeholder="Zoek op merk of model...">
+        </div>
+    </header>
+
+    <main class="grid" id="garageGrid">
+        
+        <!-- Renault Megane R.S. -->
+        <div class="card" data-brand="Renault" data-model="Megane R.S.">
+            <div class="card-image-wrapper">
+                <!-- Zoekt naar Megane_RS.png in de hoofdmap naast index.html -->
+                <img class="car-img" src="Megane_RS.png" alt="Renault Megane R.S.">
+            </div>
+            <div class="card-content">
+                <div class="brand">Renault</div>
+                <div class="model">Megane R.S.</div>
+                <div class="stats">
+                    <span class="class">Hot Hatch</span>
+                    <span class="year">2018</span>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Verwijst naar de js map -->
+    <script src="js/script.js"></script>
+</body>
+</html>
