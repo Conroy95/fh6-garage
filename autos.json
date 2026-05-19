@@ -19,5 +19,12 @@
         "class": "Classic Muscle",
         "year": 1969,
         "image": "https://static.wikia.nocookie.net/forzamotorsport/images/0/09/FH5_Dodge_Charger_RT.png/revision/latest/scale-to-width-down/1000?cb=20250707213239"
+    },
+    {
+        "brand": "Ferrari",
+        "model": "J50",
+        "class": "Modern Super Cars",
+        "year": 2017,
+        "image": "https://static.wikia.nocookie.net/forzamotorsport/images/9/91/FH6_Ferrari_J50.png/revision/latest?cb=20260516173908"
     }
 ]
