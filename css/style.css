@@ -142,7 +142,7 @@ h1 {
 
 .class {
     font-weight: bold;
-    color: #fff;
+    color: #ffde3b;
     text-transform: uppercase;
     background: linear-gradient(90deg, var(--accent), transparent);
     padding: 2px 8px;
