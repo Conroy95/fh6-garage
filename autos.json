@@ -26,5 +26,26 @@
         "class": "Modern Super Cars",
         "year": 2017,
         "image": "https://static.wikia.nocookie.net/forzamotorsport/images/9/91/FH6_Ferrari_J50.png/revision/latest?cb=20260516173908"
+    },
+    {
+        "brand": "Ford",
+        "model": "F-150 Raptor R",
+        "class": "Pickups & 4x4's",
+        "year": 2023,
+        "image": "https://static.wikia.nocookie.net/forzamotorsport/images/a/a3/FH6_Ford_F-150_Raptor_R.png/revision/latest?cb=20260516173930"
+    },
+    {
+        "brand": "Ford",
+        "model": "Focus RS",
+        "class": "Super Hot Hatch",
+        "year": 2017,
+        "image": "https://static.wikia.nocookie.net/forzamotorsport/images/9/95/FH6_Ford_Focus_RS_2017.png/revision/latest?cb=20260516173943"
+    },
+    {
+        "brand": "GMC",
+        "model": "Jimmy",
+        "class": "Pickups & 4x4's",
+        "year": 1970,
+        "image": "https://static.wikia.nocookie.net/forzamotorsport/images/d/dd/FH6_GMC_Jimmy.png/revision/latest?cb=20260516174733"
     }
 ]
