@@ -1,11 +1,11 @@
 :root {
-    --bg-color: #0b0f19;
-    --card-bg: #161f38;
+    --bg-color: #f4f4f4;       /* Aangepast naar de gewenste lichtgrijze kleur */
+    --card-bg: #ffffff;        /* Aangepast naar wit voor een mooi contrast op de grijze achtergrond */
     --accent: #ff007f;
-    --accent-glow: rgba(255, 0, 127, 0.4);
-    --text: #ffffff;
-    --text-muted: #8fa0dd;
-    --input-bg: #1e294a;
+    --accent-glow: rgba(255, 0, 127, 0.2);
+    --text: #1a1a1a;           /* Aangepast naar donkergrijs zodat de tekst goed leesbaar is */
+    --text-muted: #666666;     /* Aangepast voor subtiele teksten */
+    --input-bg: #ffffff;       /* Wit invoerveld past beter bij een licht thema */
 }
 
 * {
@@ -25,7 +25,7 @@ body {
 header {
     text-align: center;
     padding: 40px 20px;
-    background: linear-gradient(180deg, rgba(255,0,127,0.1) 0%, rgba(11,15,25,0) 100%);
+    background: linear-gradient(180deg, rgba(255,0,127,0.05) 0%, rgba(244,244,244,0) 100%);
     border-bottom: 2px solid var(--accent);
     margin-bottom: 40px;
     border-radius: 0 0 20px 20px;
@@ -55,13 +55,13 @@ h1 {
     width: 100%;
     padding: 14px 20px;
     background-color: var(--input-bg);
-    border: 2px solid transparent;
+    border: 2px solid #dddddd; /* Rand toegevoegd omdat de achtergrond nu licht is */
     border-radius: 30px;
     color: var(--text);
     font-size: 1rem;
     outline: none;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
 #searchBar:focus {
@@ -82,14 +82,14 @@ h1 {
     background-color: var(--card-bg);
     border-radius: 16px;
     overflow: hidden;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05); /* Schaduw zachter gemaakt voor het lichte thema */
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 15px 30px rgba(255, 0, 127, 0.2);
+    box-shadow: 0 15px 30px rgba(255, 0, 127, 0.15);
     border-color: var(--accent);
 }
 
@@ -97,7 +97,7 @@ h1 {
     position: relative;
     width: 100%;
     height: 180px;
-    background-color: #0f1626;
+    background-color: #e0e0e0;
 }
 
 .car-img {
@@ -134,7 +134,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
     font-size: 0.95rem;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.05); /* Lichte achtergrond voor de stats */
     padding: 10px 15px;
     border-radius: 8px;
     border-left: 4px solid var(--accent);
